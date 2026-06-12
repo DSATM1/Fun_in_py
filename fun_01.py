@@ -21,3 +21,8 @@ greet("Ranganna")"""
 tables(2)
 tables(4)
 tables(12)"""
+
+"""def fun(n):  #type:ignore
+    return n*5  #type:ignore  n = 2 so 2*5 = 10
+b = fun(5)
+print(b)"""
