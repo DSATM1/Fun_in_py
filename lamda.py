@@ -30,3 +30,20 @@ print(students)"""
 
 print(factorial(3))"""
 
+
+#-----Nested Function-------
+
+"""def calculate(a,b):
+    def add():
+        print(a+b)
+    def mul():
+        print(a*b)
+    def sub():
+        print(a-b)
+    def div():
+        print(a/b)
+    add()
+    mul()
+    sub()
+    div()
+calculate(10,20)"""
