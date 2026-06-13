@@ -13,3 +13,12 @@ print(add(5,10))
 
 mul = lambda x : 2**x
 print(mul(4))"""
+
+"""students =[
+    {"name":"Suraj","marks":50},
+    {"name":"Rahul","marks":45},
+    {"name":"Mohan","marks":89}
+]
+
+students.sort(key = lambda x : x["name"],reverse = False)
+print(students)"""
