@@ -23,3 +23,13 @@ print(res)"""
             result.append(j)
     return result
 print(flatten([[1,2], [3,4], [5,6]]))"""
+
+
+"""def linear_search(lst,target):
+    for index,value in enumerate(lst):
+        if value == target:
+            return index
+    return -1
+
+print(linear_search([10, 25, 3, 78, 45], 78))
+print(linear_search([10, 25, 3, 78, 45], 99))"""
