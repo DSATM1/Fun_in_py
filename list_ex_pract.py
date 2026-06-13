@@ -59,3 +59,9 @@ print(two_sum([2, 7, 11, 15], 26))"""
     return lst[-k:] + lst[:-k]
 print(rotate([1,2,3,4,5],2))"""
 
+"""def find_missing(lst):
+    n = len(lst) + 1
+    for num in range(1, n+1):
+        if num not in lst:
+            return num
+print(find_missing([1,2,4,5]))"""
