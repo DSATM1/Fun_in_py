@@ -50,3 +50,12 @@ print(bubble_sort([64, 34, 25, 12]))"""
                 return [i,j]
     return -1
 print(two_sum([2, 7, 11, 15], 26))"""
+
+"""def rotate(lst,k):
+    if len(lst) == 0:
+        return lst
+    k = k % len(lst)
+
+    return lst[-k:] + lst[:-k]
+print(rotate([1,2,3,4,5],2))"""
+
