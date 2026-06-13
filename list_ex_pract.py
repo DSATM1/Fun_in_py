@@ -42,3 +42,11 @@ print(linear_search([10, 25, 3, 78, 45], 99))"""
                 lst[j],lst[j+1] = lst[j+1] , lst[j]
     return lst
 print(bubble_sort([64, 34, 25, 12]))"""
+
+"""def two_sum(lst,target):
+    for i in range(len(lst)):
+        for j in range(i+1 ,len(lst)):
+            if lst[i] + lst[j] == target:
+                return [i,j]
+    return -1
+print(two_sum([2, 7, 11, 15], 26))"""
