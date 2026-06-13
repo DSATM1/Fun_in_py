@@ -8,3 +8,8 @@ print(add(20,35))"""
         print(f"{key}:{value}")
 name(age=24,city="Sira",naam="Suraj".upper())"""
 
+"""add = lambda a,b : a+b
+print(add(5,10))
+
+mul = lambda x : 2**x
+print(mul(4))"""
