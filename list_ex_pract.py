@@ -16,5 +16,10 @@
 res = second_largest([5,5,5])
 print(res)"""
 
-
-
+"""def flatten(lst):
+    result = []
+    for i in lst:
+        for j in i:
+            result.append(j)
+    return result
+print(flatten([[34,12], [9,11], [43,6]]))"""
