@@ -96,3 +96,17 @@ print(find_missing([1,2,4,5]))"""
         j += 1
     return merged
 print(two_point([1,3,5],[2,4,6]))"""
+
+
+"""def stock(prices):
+    min_price = prices[0]
+    stock = 0
+
+    for price in prices:
+        min_price = min(min_price, price)
+        stock = max(stock, price - min_price)
+    
+    return stock
+
+print(stock([7, 1, 5, 3, 6, 4]))
+print(stock([7, 6, 4, 3, 1]))"""
