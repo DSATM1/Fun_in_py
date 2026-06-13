@@ -33,3 +33,12 @@ print(flatten([[1,2], [3,4], [5,6]]))"""
 
 print(linear_search([10, 25, 3, 78, 45], 78))
 print(linear_search([10, 25, 3, 78, 45], 99))"""
+
+
+"""def bubble_sort(lst):
+    for i in range(len(lst) -1):
+        for j in range(len(lst)- i -1):
+            if lst[j] > lst[j+1]:
+                lst[j],lst[j+1] = lst[j+1] , lst[j]
+    return lst
+print(bubble_sort([64, 34, 25, 12]))"""
