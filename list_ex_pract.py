@@ -27,3 +27,8 @@ print(remove_duplicate([23,45,9,12,78,32,21]))"""
     print(f"Table of {i}")
     for j in range(1, 11):
         print(f"{i} X {j} = {i*j}")"""
+
+"""for i in range(1,51):
+    if i%3==0 or i%7==0:
+        continue
+    print(i,end=" ")"""
