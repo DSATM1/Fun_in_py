@@ -65,3 +65,13 @@ print(rotate([1,2,3,4,5],2))"""
         if num not in lst:
             return num
 print(find_missing([1,2,4,5]))"""
+
+"""def find_missing(lst):
+    n = len(lst) + 1
+    sums = n * (n+1) // 2
+    actual_sum = sum(lst)
+
+    missing = sums - actual_sum
+    
+    return missing
+print(find_missing([1,2,4,5]))"""
