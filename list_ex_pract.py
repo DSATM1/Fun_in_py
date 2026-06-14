@@ -42,3 +42,17 @@ for i in range(1,n+1):
     for j in range(1, i+1):
         print(i,end= " ")
     print()"""
+
+n = 5  # Size of diamond
+
+# TOP PART - Getting wider
+for i in range(n):
+    spaces = n - i - 1      # How many spaces before stars
+    stars = 2 * i + 1       # How many stars to print
+    print(" " * spaces + "*" * stars)
+
+# BOTTOM PART - Getting narrower
+for i in range(n-2, -1, -1):
+    spaces = n - i - 1      # How many spaces before stars
+    stars = 2 * i + 1       # How many stars to print
+    print(" " * spaces + "*" * stars)
