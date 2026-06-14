@@ -35,14 +35,17 @@ print(remove_duplicate([23,45,9,12,78,32,21]))"""
 
 
 """n = int(input("Enter n: ").strip())
-step = 0
-while n != 1:
-    print(n, end = " -> ")
-    if  n % 2 == 0:
-        n = n//2
-    else:
-        n = n*3+1
-    step += 1
-print(n)
-print(f"Steps : {step}")"""
+if n <= 0:
+    print("Please Enter a Positive Number")
+else:
+    step = 0
+    while n != 1:
+        print(n, end = " -> ")
+        if  n % 2 == 0:
+            n = n//2
+        else:
+            n = n*3+1
+        step += 1
+    print(n)
+    print(f"Steps : {step}")"""
 
